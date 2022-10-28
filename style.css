@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    background-color: #3958ab;
+    font-family: 'Bungee Spice', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.saludo{
+    background-color: #daf7a6;
+    max-width: 750px;
+    padding: 15px;
+    border-radius: 10px;
+    color: coral;
+    text-align: center;
+    box-shadow: 2px 2px 3px black;
+}
+
+.saludo h2{
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.saludo h1{
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.saludo button{
+    width: 100%;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #3958AB;
+    font-family: 'Pacifico', cursive;
+    cursor: pointer;
+
+}
